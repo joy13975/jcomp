@@ -1,0 +1,1811 @@
+XOR R0,R0,R0
+WRS 0
+WRS 43
+WRS 45
+WRS 43
+WRS 80
+WRS 43
+WRS 130
+WRS 43
+WRS 188
+WRS 43
+WRS 251
+WRS 43
+WRS 43
+WRS 307
+WRS 43
+WRS 368
+WRS 43
+WRS 431
+WRS 43
+WRS 495
+WRS 43
+WRS 559
+WRS 43
+WRS 623
+WRS 43
+WRS 691
+WRS 43
+WRS 760
+WRS 43
+WRS 831
+WRS 43
+WRS 903
+WRS 43
+WRS 974
+WRS 43
+WRS 1045
+WRS 43
+WRS 1116
+WRS 43
+WRS 1187
+WRS 43
+WRS 1259
+WRS 43
+WRS 1330
+WRS 43
+WRS 1402
+WRS 43
+WRS 1475
+WRS 43
+WRS 1549
+WRS 43
+WRS 1620
+WRS 43
+WRS 1689
+WRS 43
+HALT
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 77 ; M 
+DATA 101 ; e 
+DATA 114 ; r 
+DATA 114 ; r 
+DATA 121 ; y 
+DATA 32 ;   
+DATA 67 ; C 
+DATA 104 ; h 
+DATA 114 ; r 
+DATA 105 ; i 
+DATA 115 ; s 
+DATA 116 ; t 
+DATA 109 ; m 
+DATA 97 ; a 
+DATA 115 ; s 
+DATA 32 ;   
+DATA 67 ; C 
+DATA 83 ; S 
+DATA 32 ;   
+DATA 50 ; 2 
+DATA 48 ; 0 
+DATA 49 ; 1 
+DATA 52 ; 4 
+DATA 33 ; ! 
+DATA 0 ;  
+DATA 10 ;  
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 41 ; ) 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 47 ; / 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 41 ; ) 
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 41 ; ) 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 41 ; ) 
+DATA 32 ;   
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 44 ; , 
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 44 ; , 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 47 ; / 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 47 ; / 
+DATA 95 ; _ 
+DATA 41 ; ) 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 40 ; ( 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 47 ; / 
+DATA 95 ; _ 
+DATA 41 ; ) 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 44 ; , 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 41 ; ) 
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 44 ; , 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 46 ; . 
+DATA 46 ; . 
+DATA 46 ; . 
+DATA 46 ; . 
+DATA 95 ; _ 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 47 ; / 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 46 ; . 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 111 ; o 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 46 ; . 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 92 ; \ 
+DATA 111 ; o 
+DATA 47 ; / 
+DATA 41 ; ) 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 46 ; . 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 111 ; o 
+DATA 58 ; : 
+DATA 46 ; . 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 32 ;   
+DATA 32 ;   
+DATA 47 ; / 
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 58 ; : 
+DATA 111 ; o 
+DATA 58 ; : 
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 96 ; ` 
+DATA 58 ; : 
+DATA 125 ; } 
+DATA 95 ; _ 
+DATA 62 ; > 
+DATA 40 ; ( 
+DATA 41 ; ) 
+DATA 60 ; < 
+DATA 95 ; _ 
+DATA 123 ; { 
+DATA 58 ; : 
+DATA 58 ; : 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 64 ; @ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 96 ; ` 
+DATA 96 ; ` 
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 96 ; ` 
+DATA 96 ; ` 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 64 ; @ 
+DATA 32 ;   
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 64 ; @ 
+DATA 32 ;   
+DATA 35 ; # 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 32 ;   
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 35 ; # 
+DATA 32 ;   
+DATA 64 ; @ 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 62 ; > 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 35 ; # 
+DATA 95 ; _ 
+DATA 35 ; # 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 47 ; / 
+DATA 96 ; ` 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 96 ; ` 
+DATA 92 ; \ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 35 ; # 
+DATA 95 ; _ 
+DATA 35 ; # 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 42 ; * 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 91 ; [ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 93 ; ] 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 45 ; - 
+DATA 32 ;   
+DATA 46 ; . 
+DATA 45 ; - 
+DATA 47 ; / 
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 92 ; \ 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 46 ; . 
+DATA 32 ;   
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 45 ; - 
+DATA 124 ; | 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 42 ; * 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 45 ; - 
+DATA 95 ; _ 
+DATA 61 ; = 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 45 ; - 
+DATA 95 ; _ 
+DATA 61 ; = 
+DATA 45 ; - 
+DATA 124 ; | 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 62 ; > 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 61 ; = 
+DATA 45 ; - 
+DATA 61 ; = 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 61 ; = 
+DATA 45 ; - 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 42 ; * 
+DATA 47 ; / 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 48 ; 0 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 62 ; > 
+DATA 48 ; 0 
+DATA 62 ; > 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 45 ; - 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 96 ; ` 
+DATA 45 ; - 
+DATA 96 ; ` 
+DATA 96 ; ` 
+DATA 45 ; - 
+DATA 96 ; ` 
+DATA 96 ; ` 
+DATA 45 ; - 
+DATA 96 ; ` 
+DATA 96 ; ` 
+DATA 45 ; - 
+DATA 96 ; ` 
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 61 ; = 
+DATA 45 ; - 
+DATA 124 ; | 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 85 ; U 
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 42 ; * 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 62 ; > 
+DATA 60 ; < 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 62 ; > 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 45 ; - 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 111 ; o 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 111 ; o 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 61 ; = 
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 48 ; 0 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 45 ; - 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 33 ; ! 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 33 ; ! 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 61 ; = 
+DATA 45 ; - 
+DATA 95 ; _ 
+DATA 61 ; = 
+DATA 124 ; | 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 40 ; ( 
+DATA 85 ; U 
+DATA 85 ; U 
+DATA 41 ; ) 
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 62 ; > 
+DATA 40 ; ( 
+DATA 40 ; ( 
+DATA 42 ; * 
+DATA 41 ; ) 
+DATA 41 ; ) 
+DATA 95 ; _ 
+DATA 62 ; > 
+DATA 48 ; 0 
+DATA 62 ; > 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 48 ; 0 
+DATA 62 ; > 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 45 ; - 
+DATA 44 ; , 
+DATA 45 ; - 
+DATA 61 ; = 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 33 ; ! 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 41 ; ) 
+DATA 46 ; . 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 33 ; ! 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 45 ; - 
+DATA 95 ; _ 
+DATA 45 ; - 
+DATA 61 ; = 
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 92 ; \ 
+DATA 32 ;   
+DATA 92 ; \ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 32 ;   
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 124 ; | 
+DATA 124 ; | 
+DATA 46 ; . 
+DATA 42 ; * 
+DATA 46 ; . 
+DATA 42 ; * 
+DATA 46 ; . 
+DATA 42 ; * 
+DATA 46 ; . 
+DATA 124 ; | 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 42 ; * 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 60 ; < 
+DATA 48 ; 0 
+DATA 60 ; < 
+DATA 60 ; < 
+DATA 64 ; @ 
+DATA 60 ; < 
+DATA 47 ; / 
+DATA 61 ; = 
+DATA 45 ; - 
+DATA 40 ; ( 
+DATA 40 ; ( 
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 33 ; ! 
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 40 ; ( 
+DATA 58 ; : 
+DATA 96 ; ` 
+DATA 41 ; ) 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 33 ; ! 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 61 ; = 
+DATA 61 ; = 
+DATA 95 ; _ 
+DATA 45 ; - 
+DATA 92 ; \ 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 38 ; & 
+DATA 38 ; & 
+DATA 95 ; _ 
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 32 ;   
+DATA 124 ; | 
+DATA 124 ; | 
+DATA 42 ; * 
+DATA 46 ; . 
+DATA 42 ; * 
+DATA 46 ; . 
+DATA 42 ; * 
+DATA 46 ; . 
+DATA 42 ; * 
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 92 ; \ 
+DATA 92 ; \ 
+DATA 100 ; d 
+DATA 98 ; b 
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 92 ; \ 
+DATA 95 ; _ 
+DATA 47 ; / 
+DATA 41 ; ) 
+DATA 45 ; - 
+DATA 61 ; = 
+DATA 41 ; ) 
+DATA 41 ; ) 
+DATA 45 ; - 
+DATA 124 ; | 
+DATA 47 ; / 
+DATA 94 ; ^ 
+DATA 92 ; \ 
+DATA 61 ; = 
+DATA 94 ; ^ 
+DATA 61 ; = 
+DATA 94 ; ^ 
+DATA 94 ; ^ 
+DATA 61 ; = 
+DATA 94 ; ^ 
+DATA 61 ; = 
+DATA 47 ; / 
+DATA 94 ; ^ 
+DATA 92 ; \ 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 61 ; = 
+DATA 45 ; - 
+DATA 95 ; _ 
+DATA 45 ; - 
+DATA 95 ; _ 
+DATA 92 ; \ 
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 34 ; " 
+DATA 34 ; " 
+DATA 34 ; " 
+DATA 34 ; " 
+DATA 124 ; | 
+DATA 96 ; ` 
+DATA 46 ; . 
+DATA 96 ; ` 
+DATA 46 ; . 
+DATA 96 ; ` 
+DATA 46 ; . 
+DATA 124 ; | 
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 124 ; | 
+DATA 46 ; . 
+DATA 42 ; * 
+DATA 46 ; . 
+DATA 42 ; * 
+DATA 46 ; . 
+DATA 42 ; * 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 61 ; = 
+DATA 40 ; ( 
+DATA 96 ; ` 
+DATA 46 ; . 
+DATA 96 ; ` 
+DATA 41 ; ) 
+DATA 61 ; = 
+DATA 47 ; / 
+DATA 47 ; / 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 44 ; , 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 46 ; . 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 124 ; | 
+DATA 96 ; ` 
+DATA 46 ; . 
+DATA 96 ; ` 
+DATA 46 ; . 
+DATA 96 ; ` 
+DATA 46 ; . 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 94 ; ^ 
+DATA 94 ; ^ 
+DATA 94 ; ^ 
+DATA 94 ; ^ 
+DATA 94 ; ^ 
+DATA 94 ; ^ 
+DATA 124 ; | 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 95 ; _ 
+DATA 124 ; | 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 62 ; > 
+DATA 124 ; | 
+DATA 32 ;   
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 32 ;   
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 32 ;   
+DATA 41 ; ) 
+DATA 47 ; / 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 40 ; ( 
+DATA 40 ; ( 
+DATA 40 ; ( 
+DATA 40 ; ( 
+DATA 40 ; ( 
+DATA 40 ; ( 
+DATA 40 ; ( 
+DATA 40 ; ( 
+DATA 41 ; ) 
+DATA 41 ; ) 
+DATA 41 ; ) 
+DATA 41 ; ) 
+DATA 41 ; ) 
+DATA 41 ; ) 
+DATA 41 ; ) 
+DATA 41 ; ) 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 0 ;  
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 126 ; ~ 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 96 ; ` 
+DATA 34 ; " 
+DATA 34 ; " 
+DATA 34 ; " 
+DATA 34 ; " 
+DATA 96 ; ` 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 96 ; ` 
+DATA 32 ;   
+DATA 32 ;   
+DATA 96 ; ` 
+DATA 119 ; w 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 119 ; w 
+DATA 96 ; ` 
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 32 ;   
+DATA 96 ; ` 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 45 ; - 
+DATA 96 ; ` 
+DATA 0 ;  

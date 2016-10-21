@@ -1,0 +1,23 @@
+write('Enter a number: ');
+read(a);
+write('Enter a number: ');
+read(b);
+write('Enter a number: ');
+read(c);
+write('Enter a number: ');
+read(d);
+a := (d+c*(12-6)-a*4)*(b+2*(a-6)-20*b);
+b := (13+d+a*(27-d)-a*c)*(b+2*(a-6)-20*b)+(28-2*(2-b)-12*4)*(b+2*(a-c)-7*b);
+c := (1+c+a*(7-c)-a*a)*(a+2*(a-6)-20*b)*((c+2*(a-c)-20*d));
+d := (a+c+a*(c-c)-a*b)*((c+d*(a-c)-b*d));
+write('a = ');
+write(a);
+writeln;
+write('b = ');
+write(b);
+writeln;
+write('c = ');
+write(c);
+writeln;write('d = ');
+write(d);
+writeln

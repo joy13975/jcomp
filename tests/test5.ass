@@ -1,0 +1,42 @@
+XOR R0,R0,R0
+lblh0:
+ADDI R1,R0,1
+WR R1
+JMP lblh0
+lbeb0:
+lblh1:
+ADDI R1,R0,3
+WR R1
+JMP lblh1
+lbeb1:
+lblh2:
+ADDI R1,R0,7
+WR R1
+JMP lblh2
+lbeb2:
+lblh3:
+WRS 4
+JMP lblh3
+lbeb3:
+lblh4:
+lblh5:
+WRS 6
+JMP lblh5
+lbeb5:
+lblh6:
+WRS 8
+JMP lblh6
+lbeb6:
+JMP lblh4
+lbeb4:
+HALT
+DATA 10 ;  
+DATA 0 ;  
+DATA 97 ; a 
+DATA 0 ;  
+DATA 98 ; b 
+DATA 0 ;  
+DATA 99 ; c 
+DATA 0 ;  
+DATA 100 ; d 
+DATA 0 ;  

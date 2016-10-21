@@ -1,0 +1,223 @@
+Q1: Which of the language features have you successfully implemented?
+A1: All
+
+Q2: How do I compile and run your compiler?
+A2: To compile the compiler:
+        make all
+
+    To compile source code using the compiler:
+        1. Manual method:
+            java camle <source to compile>
+            e.g. java camle test1.w
+
+        2. Script method:
+            ./camle <source to compile>
+            e.g. ./camle test1.w
+
+    To run a compiled assembly:
+        1. Manual method:
+            ./assmule.linux <assembly to run>
+            e.g. ./assmule.linux test1.ass
+        2. Script method (OS auto-detection):
+            ./run <assembly to run>
+            e.g. ./run test1.ass
+
+    To compile & run a test automatically:
+        ./test <test number>
+        e.g. ./test 1
+
+    To compile & run all tests (output also saved to file "tout"):
+        ./testall
+
+Q3: A listing of the output produced by the emulator?
+A3: Please either find it in the file "tout" or see below (trimmed version):
+    ASS/MULE - ASSembler/eMUlator for Language Engineering - v2.7 - Steve Gregory
+    ---test1.ass ASSEMBLY BEGINS
+    ---test1.ass ASSEMBLY ENDS
+    ---test1.ass EXECUTION BEGINS
+    10023
+    10023
+    76
+    76
+    ---test1.ass EXECUTION ENDS
+    STATISTICS:
+      20 instructions generated
+      2 registers used
+      20 instructions executed
+
+    ASS/MULE - ASSembler/eMUlator for Language Engineering - v2.7 - Steve Gregory
+    ---test2.ass ASSEMBLY BEGINS
+    ---test2.ass ASSEMBLY ENDS
+    ---test2.ass EXECUTION BEGINS
+    7
+    -5
+    28
+    -91
+    70
+    ---test2.ass EXECUTION ENDS
+    STATISTICS:
+      17 instructions generated
+      2 registers used
+      17 instructions executed
+
+    ASS/MULE - ASSembler/eMUlator for Language Engineering - v2.7 - Steve Gregory
+    ---test3.ass ASSEMBLY BEGINS
+    ---test3.ass ASSEMBLY ENDS
+    ---test3.ass EXECUTION BEGINS
+    Enter a number: 3
+    Enter a number: 5
+    First is 3; second is 5
+    ---test3.ass EXECUTION ENDS
+    STATISTICS:
+      15 instructions generated
+      2 registers used
+      15 instructions executed
+
+    ASS/MULE - ASSembler/eMUlator for Language Engineering - v2.7 - Steve Gregory
+    ---test4.ass ASSEMBLY BEGINS
+    ---test4.ass ASSEMBLY ENDS
+    ---test4.ass EXECUTION BEGINS
+    13
+    5
+
+    78bce
+    ---test4.ass EXECUTION ENDS
+    STATISTICS:
+      18 instructions generated
+      2 registers used
+      18 instructions executed
+
+    ASS/MULE - ASSembler/eMUlator for Language Engineering - v2.7 - Steve Gregory
+    ---test5.ass ASSEMBLY BEGINS
+    ---test5.ass ASSEMBLY ENDS
+    ---test5.ass EXECUTION BEGINS
+    1
+    WARNING: Disabled backward jump in    3: JMP 1
+    3
+    WARNING: Disabled backward jump in    6: JMP 4
+    7
+    WARNING: Disabled backward jump in    9: JMP 7
+    b
+    WARNING: Disabled backward jump in   11: JMP 10
+    c
+    WARNING: Disabled backward jump in   13: JMP 12
+    d
+    WARNING: Disabled backward jump in   15: JMP 14
+    WARNING: Disabled backward jump in   16: JMP 12
+    ---test5.ass EXECUTION ENDS
+    STATISTICS:
+      18 instructions generated
+      2 registers used
+      18 instructions executed
+
+    ASS/MULE - ASSembler/eMUlator for Language Engineering - v2.7 - Steve Gregory
+    ---test6.ass ASSEMBLY BEGINS
+    ---test6.ass ASSEMBLY ENDS
+    ---test6.ass EXECUTION BEGINS
+    truefalsefalsetruetruefalsefalsefalsetruefalsefalsefalsefalse
+    ---test6.ass EXECUTION ENDS
+    STATISTICS:
+      15 instructions generated
+      1 registers used
+      15 instructions executed
+
+    ASS/MULE - ASSembler/eMUlator for Language Engineering - v2.7 - Steve Gregory
+    ---test7.ass ASSEMBLY BEGINS
+    ---test7.ass ASSEMBLY ENDS
+    ---test7.ass EXECUTION BEGINS
+    Factorial calculator
+    Enter number: 5
+    Factorial of 5 is 120
+
+    Exponential calculator
+    Enter base: 10
+    Enter exponent: 5
+    10 raised to the power of 5 is 100000
+    ---test7.ass EXECUTION ENDS
+    STATISTICS:
+      69 instructions generated
+      3 registers used
+      158 instructions executed
+
+Q4: Claiming extra marks:
+    Q4.1: What error checking you have implemented?
+        Error handling were implemented in Lex.g, Syn.g, Irt.java and Cg.java.
+        In Lex.g:
+            Lexical errors are caught and reported. It pinpoints exactly where in the code went wrong just like the javac compiler error messages. Expected alternative character is suggested, or if the input is disallowed, display such message. For example:
+                [ErrorTest.w:1:0] Lexical error
+                , = 5;
+                ^
+                Character ',' not defined in language.
+                CAMLE exiting.
+
+            Another example:
+                [ErrorTest.w:1:6] Lexical error
+                e := 5};
+                      ^
+                Unmatched comment bracket.
+                CAMLE exiting.
+
+        In Syn.g:
+            Syntax errors are caught and reported. It pinpoints exactly where in the code went wrong just like the javac compiler error messages. Expected alternative token is suggested, or if the input token could not start a production then it is displayed so. For example:
+                [ErrorTest.w:1:0] Syntax error
+                3 = 1
+                ^
+                An integer cannot start an expected expression.
+                CAMLE exiting.
+
+            Another example:
+                [ErrorTest.w:1:2] Syntax error
+                a - 5
+                  ^
+                Expecting an assignment: ":=", but found a minus sign: "-".
+                CAMLE exiting.
+
+            Yet another example:
+                [ErrorTest.w:1:7] Syntax error
+                a := 5 l = 30339
+                       ^
+                Run-on code: missing a semicolon that separates statements.
+                CAMLE exiting.
+
+        In Irg.java:
+            Logic errors are caught and reported. It cannot show where the problem occurred but could highlight which variable it occurred at and explain in more depth what went wrong. For example (input is "a := e"):
+                Logic error:
+                In assignment, uninitialised right hand side variable: e
+                IRT error: ASSIGNMENT
+
+            Another example (input is "i := 12+3+0/3*e"):
+                Logic error:
+                Expression contains uninitialised variable: e
+                IRT error: IDENTIFIER
+
+            Another example (a := 1/0):
+                Logic error:
+                Division by zero
+                IRT error: DIVISION
+
+        In Cg.java:
+            Catches hard errors that fall all the way through Lex, Syn and Irt. An example could not be provided because the compiler is currently working correctly. When implementing new features, this comes in handy because errors created by new, partially implemented features would be caught here and fixed accordingly. These could be incompatible variable types, unseen operators, or generally errors that indicate previous stages have gone wrong.
+
+    Q4.2: What extra language features you have implemented?
+        1. Division i.e. /
+        2. Divide by zero checks i.e. x/0 triggers a logic error
+        3. Real arithmetics i.e. 3.5*7.1 evaluates to 24.85
+        4. Auto type checking and casting i.e. 10/3.0 evaluates to 3.3333..
+        5. Write real i.e. write(5.5) uses WRR, write(1) uses WR
+
+    Q4.3: What optimizations does your compiler perform, and how do they improve its efficiency?
+        1. Pre-computation of both numeric and boolean expressions:
+                Greatly reduces program size and instructions executed. Avoids calculating constants that can be evaluated at compile-time.
+        2. Elimination of IF or ELSE blocks if condition can be pre-computed:
+                Greatly reduces program size and instructions executed. Unnecessary conditional tests, labels and jumps are avoided.
+        3. Pre-assign constant or pre-computed values to static memory when possible:
+                Removes instructions that assign a constant expression to a variable in static memory.
+        4. Life-time analysis
+                Both registers and static memory are reused as much as possible. This greatly reduces the usage of both, as can be seen from the output.
+        5. Omit "skip"  blocks
+                Reduces instruction count; simply jump to end of block when condition is false, hence fewer labels and jumps.
+        6. Duplicate strings occupy the same memory as they are unmodifiable:
+                Reduces static memory usage greatly.
+
+    Q4.4: The number of hours that you spent on "Extras"?
+        More than 100 hours.

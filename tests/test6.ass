@@ -1,0 +1,26 @@
+XOR R0,R0,R0
+WRS 0
+WRS 5
+WRS 5
+WRS 0
+WRS 0
+WRS 5
+WRS 5
+WRS 5
+WRS 0
+WRS 5
+WRS 5
+WRS 5
+WRS 5
+HALT
+DATA 116 ; t 
+DATA 114 ; r 
+DATA 117 ; u 
+DATA 101 ; e 
+DATA 0 ;  
+DATA 102 ; f 
+DATA 97 ; a 
+DATA 108 ; l 
+DATA 115 ; s 
+DATA 101 ; e 
+DATA 0 ;  
