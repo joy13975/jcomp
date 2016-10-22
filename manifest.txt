@@ -1,0 +1,2 @@
+Class-Path: /usr/local/lib/antlr-3.5.2-complete.jar
+Main-Class: Camle
